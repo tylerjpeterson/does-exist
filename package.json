@@ -1,0 +1,42 @@
+{
+  "name": "does-exist",
+  "description": "Promising module to test for existence of a file/directory adherent to best-practices defined within nodejs.org documentation.",
+  "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "exists": "bin/does-exist.js"
+  },
+  "scripts": {
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- -R spec tests/test.js",
+    "test": "node node_modules/.bin/mocha tests/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerjpeterson/does-exist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerjpeterson/does-exist"
+  },
+  "homepage": "https://github.com/tylerjpeterson/does-exist",
+  "contributors": [
+    ""
+  ],
+  "xo": {
+    "rules": {
+      "no-else-return": 0
+    }
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
